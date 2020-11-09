@@ -229,6 +229,7 @@ class Poem:
         syllables = [(word, syl) for word, syl in entries if word == base_word]
         rhymes = []
         for (word, syllable) in syllables:
+            #Uses the level to match final syllables. The higher the level, the more syllables need to match
             rhymes += [word for word, pron in entries if pron[-level:] == syllable[-level:]]
         return set(rhymes)
 
