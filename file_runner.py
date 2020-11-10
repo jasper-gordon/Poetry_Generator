@@ -7,7 +7,7 @@ escription: This file takes in user input to make calls to the Poem class to gen
     format, and output the poems both on the screen and through audible projection. The purpose of this file is 
     to orgnaize the execution and presnetation tasks involving the Poem and Positivity_Score classes.
 """
-from state_of_union_practice import Poem
+from poem_class import Poem
 from positivity_checker import Positivity_Score
 import pyttsx3
 #Global variables to limit input
