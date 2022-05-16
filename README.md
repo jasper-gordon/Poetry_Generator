@@ -5,16 +5,14 @@ Author: Jasper Gordon
 Date: 11/8/2020
 
 Project Description:
-    The goal of this project was to create a poetry generator that utilized presidential speeches, in this case
-    innaugral addresses and state of the union speeches, as inspriation for an n-gram system of language generation
-    in the form of poetry. On the most braod level, the system works by breaking down the speeches using NLTK to
+    The goal of this project was to use n-gram to create poetry, in this case using a presidential tone by relying on a sampling of innuaural addresses from past US presidents. Simply put, the system works by breaking down the sample speeches using NLTK to
     build n-gram-utuilizng text generation systems. These systems then generate text into a given poetic format
-    partially chosen by the user. The user can control (within some limits) the number of wors per line, and
+    partially chosen by the user. The user can control (within some limits) the number of words per line, and the
     number of lines per poem. Addiitonally, the user chooses a single word to base the poem on, and that word
-    appears at the beggining of the poem. In theory every two lines of the poems should rhyme as cuplets,
-    although it is often depednent on the input givne to the system. When run, the system generates numerous
-    different poems based on the given subject input, and then returns what it evaluates as the best poem,
-    which is defined as the poem that most frequently rhymes while also maintaing the syntatical structure
+    appears at the beggining of the poem. In theory, every two lines of the poems should rhyme as cuplets,
+    although it is often depednent on the input given to the system. When run, the system generates numerous
+    different poems based on the given subject input, and then returns what it evaluates as the "best" poem,
+    defined here as the poem with the most consistent rhyming and which also maintains the syntatical structure
     provided by the n-gram probabilities.
 
 Challenges:
